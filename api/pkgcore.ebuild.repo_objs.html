@@ -1,0 +1,391 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pkgcore.ebuild.repo_objs module &#8212; pkgcore trunk documentation</title>
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinxdoc.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">pkgcore trunk documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">pkgcore.ebuild.repo_objs module</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="module-pkgcore.ebuild.repo_objs">
+<span id="pkgcore-ebuild-repo-objs-module"></span><h1>pkgcore.ebuild.repo_objs module<a class="headerlink" href="#module-pkgcore.ebuild.repo_objs" title="Permalink to this headline">¶</a></h1>
+<p>package class for buildable ebuilds</p>
+<dl class="py class">
+<dt id="pkgcore.ebuild.repo_objs.Licenses">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">pkgcore.ebuild.repo_objs.</span></code><code class="sig-name descname"><span class="pre">Licenses</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">a</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kw</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pkgcore/ebuild/repo_objs.html#Licenses"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pkgcore.ebuild.repo_objs.Licenses" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<dl class="py attribute">
+<dt id="pkgcore.ebuild.repo_objs.Licenses.groups">
+<code class="sig-name descname"><span class="pre">groups</span></code><a class="headerlink" href="#pkgcore.ebuild.repo_objs.Licenses.groups" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the mapping of defined license groups to licenses for a repo.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="pkgcore.ebuild.repo_objs.Licenses.license_groups_path">
+<code class="sig-name descname"><span class="pre">license_groups_path</span></code><a class="headerlink" href="#pkgcore.ebuild.repo_objs.Licenses.license_groups_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="pkgcore.ebuild.repo_objs.Licenses.licenses">
+<code class="sig-name descname"><span class="pre">licenses</span></code><a class="headerlink" href="#pkgcore.ebuild.repo_objs.Licenses.licenses" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the set of all defined licenses in a repo.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="pkgcore.ebuild.repo_objs.Licenses.licenses_dir">
+<code class="sig-name descname"><span class="pre">licenses_dir</span></code><a class="headerlink" href="#pkgcore.ebuild.repo_objs.Licenses.licenses_dir" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="pkgcore.ebuild.repo_objs.Licenses.refresh">
+<code class="sig-name descname"><span class="pre">refresh</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pkgcore/ebuild/repo_objs.html#Licenses.refresh"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pkgcore.ebuild.repo_objs.Licenses.refresh" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="pkgcore.ebuild.repo_objs.LocalMetadataXml">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">pkgcore.ebuild.repo_objs.</span></code><code class="sig-name descname"><span class="pre">LocalMetadataXml</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">source</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pkgcore/ebuild/repo_objs.html#LocalMetadataXml"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pkgcore.ebuild.repo_objs.LocalMetadataXml" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#pkgcore.ebuild.repo_objs.MetadataXml" title="pkgcore.ebuild.repo_objs.MetadataXml"><code class="xref py py-class docutils literal notranslate"><span class="pre">pkgcore.ebuild.repo_objs.MetadataXml</span></code></a></p>
+</dd></dl>
+
+<dl class="py class">
+<dt id="pkgcore.ebuild.repo_objs.LocalProjectsXml">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">pkgcore.ebuild.repo_objs.</span></code><code class="sig-name descname"><span class="pre">LocalProjectsXml</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">source</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pkgcore/ebuild/repo_objs.html#LocalProjectsXml"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pkgcore.ebuild.repo_objs.LocalProjectsXml" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#pkgcore.ebuild.repo_objs.ProjectsXml" title="pkgcore.ebuild.repo_objs.ProjectsXml"><code class="xref py py-class docutils literal notranslate"><span class="pre">pkgcore.ebuild.repo_objs.ProjectsXml</span></code></a></p>
+</dd></dl>
+
+<dl class="py class">
+<dt id="pkgcore.ebuild.repo_objs.Maintainer">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">pkgcore.ebuild.repo_objs.</span></code><code class="sig-name descname"><span class="pre">Maintainer</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">email</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">description</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">maint_type</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">proxied</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pkgcore/ebuild/repo_objs.html#Maintainer"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pkgcore.ebuild.repo_objs.Maintainer" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<p>Data on a single maintainer.</p>
+<p>At least one of email and name is not C{None}.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Variables</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><a class="reference internal" href="#pkgcore.ebuild.repo_objs.Maintainer.email" title="pkgcore.ebuild.repo_objs.Maintainer.email"><strong>email</strong></a> – email address.</p></li>
+<li><p><a class="reference internal" href="#pkgcore.ebuild.repo_objs.Maintainer.name" title="pkgcore.ebuild.repo_objs.Maintainer.name"><strong>name</strong></a> – full name</p></li>
+<li><p><a class="reference internal" href="#pkgcore.ebuild.repo_objs.Maintainer.description" title="pkgcore.ebuild.repo_objs.Maintainer.description"><strong>description</strong></a> – description of maintainership.</p></li>
+<li><p><a class="reference internal" href="#pkgcore.ebuild.repo_objs.Maintainer.maint_type" title="pkgcore.ebuild.repo_objs.Maintainer.maint_type"><strong>maint_type</strong></a> – maintainer type (person or project).</p></li>
+<li><p><a class="reference internal" href="#pkgcore.ebuild.repo_objs.Maintainer.proxied" title="pkgcore.ebuild.repo_objs.Maintainer.proxied"><strong>proxied</strong></a> – proxied maintainer status (yes, no, proxy)</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py attribute">
+<dt id="pkgcore.ebuild.repo_objs.Maintainer.description">
+<code class="sig-name descname"><span class="pre">description</span></code><a class="headerlink" href="#pkgcore.ebuild.repo_objs.Maintainer.description" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="pkgcore.ebuild.repo_objs.Maintainer.email">
+<code class="sig-name descname"><span class="pre">email</span></code><a class="headerlink" href="#pkgcore.ebuild.repo_objs.Maintainer.email" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="pkgcore.ebuild.repo_objs.Maintainer.maint_type">
+<code class="sig-name descname"><span class="pre">maint_type</span></code><a class="headerlink" href="#pkgcore.ebuild.repo_objs.Maintainer.maint_type" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="pkgcore.ebuild.repo_objs.Maintainer.name">
+<code class="sig-name descname"><span class="pre">name</span></code><a class="headerlink" href="#pkgcore.ebuild.repo_objs.Maintainer.name" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="pkgcore.ebuild.repo_objs.Maintainer.proxied">
+<code class="sig-name descname"><span class="pre">proxied</span></code><a class="headerlink" href="#pkgcore.ebuild.repo_objs.Maintainer.proxied" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="pkgcore.ebuild.repo_objs.MetadataXml">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">pkgcore.ebuild.repo_objs.</span></code><code class="sig-name descname"><span class="pre">MetadataXml</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">source</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pkgcore/ebuild/repo_objs.html#MetadataXml"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pkgcore.ebuild.repo_objs.MetadataXml" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<p>metadata.xml parsed results</p>
+<p>Attributes are set to -1 if unloaded, None if no entry, or the value
+if loaded.</p>
+<dl class="py method">
+<dt id="pkgcore.ebuild.repo_objs.MetadataXml.local_use">
+<em class="property"><span class="pre">property</span> </em><code class="sig-name descname"><span class="pre">local_use</span></code><a class="headerlink" href="#pkgcore.ebuild.repo_objs.MetadataXml.local_use" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="pkgcore.ebuild.repo_objs.MetadataXml.longdescription">
+<em class="property"><span class="pre">property</span> </em><code class="sig-name descname"><span class="pre">longdescription</span></code><a class="headerlink" href="#pkgcore.ebuild.repo_objs.MetadataXml.longdescription" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="pkgcore.ebuild.repo_objs.MetadataXml.maintainers">
+<em class="property"><span class="pre">property</span> </em><code class="sig-name descname"><span class="pre">maintainers</span></code><a class="headerlink" href="#pkgcore.ebuild.repo_objs.MetadataXml.maintainers" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="pkgcore.ebuild.repo_objs.MetadataXml.stabilize_allarches">
+<em class="property"><span class="pre">property</span> </em><code class="sig-name descname"><span class="pre">stabilize_allarches</span></code><a class="headerlink" href="#pkgcore.ebuild.repo_objs.MetadataXml.stabilize_allarches" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="pkgcore.ebuild.repo_objs.MetadataXml.upstreams">
+<em class="property"><span class="pre">property</span> </em><code class="sig-name descname"><span class="pre">upstreams</span></code><a class="headerlink" href="#pkgcore.ebuild.repo_objs.MetadataXml.upstreams" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="pkgcore.ebuild.repo_objs.OverlayedLicenses">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">pkgcore.ebuild.repo_objs.</span></code><code class="sig-name descname"><span class="pre">OverlayedLicenses</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">a</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kw</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pkgcore/ebuild/repo_objs.html#OverlayedLicenses"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pkgcore.ebuild.repo_objs.OverlayedLicenses" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#pkgcore.ebuild.repo_objs.Licenses" title="pkgcore.ebuild.repo_objs.Licenses"><code class="xref py py-class docutils literal notranslate"><span class="pre">pkgcore.ebuild.repo_objs.Licenses</span></code></a></p>
+<dl class="py attribute">
+<dt id="pkgcore.ebuild.repo_objs.OverlayedLicenses.groups">
+<code class="sig-name descname"><span class="pre">groups</span></code><a class="headerlink" href="#pkgcore.ebuild.repo_objs.OverlayedLicenses.groups" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="pkgcore.ebuild.repo_objs.OverlayedLicenses.licenses">
+<code class="sig-name descname"><span class="pre">licenses</span></code><a class="headerlink" href="#pkgcore.ebuild.repo_objs.OverlayedLicenses.licenses" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="pkgcore.ebuild.repo_objs.OverlayedLicenses.refresh">
+<code class="sig-name descname"><span class="pre">refresh</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pkgcore/ebuild/repo_objs.html#OverlayedLicenses.refresh"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pkgcore.ebuild.repo_objs.OverlayedLicenses.refresh" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="pkgcore.ebuild.repo_objs.OverlayedProfiles">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">pkgcore.ebuild.repo_objs.</span></code><code class="sig-name descname"><span class="pre">OverlayedProfiles</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">profiles_sources</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pkgcore/ebuild/repo_objs.html#OverlayedProfiles"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pkgcore.ebuild.repo_objs.OverlayedProfiles" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">pkgcore.ebuild.repo_objs.Profiles</span></code></p>
+<dl class="py attribute">
+<dt id="pkgcore.ebuild.repo_objs.OverlayedProfiles.profiles">
+<code class="sig-name descname"><span class="pre">profiles</span></code><a class="headerlink" href="#pkgcore.ebuild.repo_objs.OverlayedProfiles.profiles" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="pkgcore.ebuild.repo_objs.OverlayedProfiles.refresh">
+<code class="sig-name descname"><span class="pre">refresh</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pkgcore/ebuild/repo_objs.html#OverlayedProfiles.refresh"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pkgcore.ebuild.repo_objs.OverlayedProfiles.refresh" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="pkgcore.ebuild.repo_objs.Project">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">pkgcore.ebuild.repo_objs.</span></code><code class="sig-name descname"><span class="pre">Project</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">email</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">url</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">description</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">members</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">()</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">subprojects</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">()</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pkgcore/ebuild/repo_objs.html#Project"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pkgcore.ebuild.repo_objs.Project" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<p>Data on a single project.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Variables</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><a class="reference internal" href="#pkgcore.ebuild.repo_objs.Project.email" title="pkgcore.ebuild.repo_objs.Project.email"><strong>email</strong></a> – email address.</p></li>
+<li><p><a class="reference internal" href="#pkgcore.ebuild.repo_objs.Project.name" title="pkgcore.ebuild.repo_objs.Project.name"><strong>name</strong></a> – full name</p></li>
+<li><p><a class="reference internal" href="#pkgcore.ebuild.repo_objs.Project.url" title="pkgcore.ebuild.repo_objs.Project.url"><strong>url</strong></a> – project website URI</p></li>
+<li><p><a class="reference internal" href="#pkgcore.ebuild.repo_objs.Project.description" title="pkgcore.ebuild.repo_objs.Project.description"><strong>description</strong></a> – full project description.</p></li>
+<li><p><a class="reference internal" href="#pkgcore.ebuild.repo_objs.Project.members" title="pkgcore.ebuild.repo_objs.Project.members"><strong>members</strong></a> – project members</p></li>
+<li><p><a class="reference internal" href="#pkgcore.ebuild.repo_objs.Project.subprojects" title="pkgcore.ebuild.repo_objs.Project.subprojects"><strong>subprojects</strong></a> – subprojects</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py attribute">
+<dt id="pkgcore.ebuild.repo_objs.Project.description">
+<code class="sig-name descname"><span class="pre">description</span></code><a class="headerlink" href="#pkgcore.ebuild.repo_objs.Project.description" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="pkgcore.ebuild.repo_objs.Project.email">
+<code class="sig-name descname"><span class="pre">email</span></code><a class="headerlink" href="#pkgcore.ebuild.repo_objs.Project.email" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="pkgcore.ebuild.repo_objs.Project.leads">
+<em class="property"><span class="pre">property</span> </em><code class="sig-name descname"><span class="pre">leads</span></code><a class="headerlink" href="#pkgcore.ebuild.repo_objs.Project.leads" title="Permalink to this definition">¶</a></dt>
+<dd><p>Project lead(s), if any.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="pkgcore.ebuild.repo_objs.Project.members">
+<code class="sig-name descname"><span class="pre">members</span></code><a class="headerlink" href="#pkgcore.ebuild.repo_objs.Project.members" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="pkgcore.ebuild.repo_objs.Project.name">
+<code class="sig-name descname"><span class="pre">name</span></code><a class="headerlink" href="#pkgcore.ebuild.repo_objs.Project.name" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="pkgcore.ebuild.repo_objs.Project.recursive_members">
+<em class="property"><span class="pre">property</span> </em><code class="sig-name descname"><span class="pre">recursive_members</span></code><a class="headerlink" href="#pkgcore.ebuild.repo_objs.Project.recursive_members" title="Permalink to this definition">¶</a></dt>
+<dd><p>All project members, including members inherited from subprojects.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="pkgcore.ebuild.repo_objs.Project.subprojects">
+<code class="sig-name descname"><span class="pre">subprojects</span></code><a class="headerlink" href="#pkgcore.ebuild.repo_objs.Project.subprojects" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="pkgcore.ebuild.repo_objs.Project.url">
+<code class="sig-name descname"><span class="pre">url</span></code><a class="headerlink" href="#pkgcore.ebuild.repo_objs.Project.url" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="pkgcore.ebuild.repo_objs.ProjectMember">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">pkgcore.ebuild.repo_objs.</span></code><code class="sig-name descname"><span class="pre">ProjectMember</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">email</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">role</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">is_lead</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pkgcore/ebuild/repo_objs.html#ProjectMember"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pkgcore.ebuild.repo_objs.ProjectMember" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<p>Data on a single project member.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Variables</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><a class="reference internal" href="#pkgcore.ebuild.repo_objs.ProjectMember.email" title="pkgcore.ebuild.repo_objs.ProjectMember.email"><strong>email</strong></a> – email address.</p></li>
+<li><p><a class="reference internal" href="#pkgcore.ebuild.repo_objs.ProjectMember.name" title="pkgcore.ebuild.repo_objs.ProjectMember.name"><strong>name</strong></a> – full name</p></li>
+<li><p><a class="reference internal" href="#pkgcore.ebuild.repo_objs.ProjectMember.role" title="pkgcore.ebuild.repo_objs.ProjectMember.role"><strong>role</strong></a> – role within the project.</p></li>
+<li><p><a class="reference internal" href="#pkgcore.ebuild.repo_objs.ProjectMember.is_lead" title="pkgcore.ebuild.repo_objs.ProjectMember.is_lead"><strong>is_lead</strong></a> – whether the member is a project lead.</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py attribute">
+<dt id="pkgcore.ebuild.repo_objs.ProjectMember.email">
+<code class="sig-name descname"><span class="pre">email</span></code><a class="headerlink" href="#pkgcore.ebuild.repo_objs.ProjectMember.email" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="pkgcore.ebuild.repo_objs.ProjectMember.is_lead">
+<code class="sig-name descname"><span class="pre">is_lead</span></code><a class="headerlink" href="#pkgcore.ebuild.repo_objs.ProjectMember.is_lead" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="pkgcore.ebuild.repo_objs.ProjectMember.name">
+<code class="sig-name descname"><span class="pre">name</span></code><a class="headerlink" href="#pkgcore.ebuild.repo_objs.ProjectMember.name" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="pkgcore.ebuild.repo_objs.ProjectMember.role">
+<code class="sig-name descname"><span class="pre">role</span></code><a class="headerlink" href="#pkgcore.ebuild.repo_objs.ProjectMember.role" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="pkgcore.ebuild.repo_objs.ProjectsXml">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">pkgcore.ebuild.repo_objs.</span></code><code class="sig-name descname"><span class="pre">ProjectsXml</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">source</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pkgcore/ebuild/repo_objs.html#ProjectsXml"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pkgcore.ebuild.repo_objs.ProjectsXml" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<p>projects.xml parsed results</p>
+<p>Attributes are set to -1 if unloaded, None if no entry, or the value
+if loaded.</p>
+<dl class="py attribute">
+<dt id="pkgcore.ebuild.repo_objs.ProjectsXml.projects">
+<code class="sig-name descname"><span class="pre">projects</span></code><a class="headerlink" href="#pkgcore.ebuild.repo_objs.ProjectsXml.projects" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="pkgcore.ebuild.repo_objs.SharedPkgData">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">pkgcore.ebuild.repo_objs.</span></code><code class="sig-name descname"><span class="pre">SharedPkgData</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">metadata_xml</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">manifest</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pkgcore/ebuild/repo_objs.html#SharedPkgData"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pkgcore.ebuild.repo_objs.SharedPkgData" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<dl class="py attribute">
+<dt id="pkgcore.ebuild.repo_objs.SharedPkgData.manifest">
+<code class="sig-name descname"><span class="pre">manifest</span></code><a class="headerlink" href="#pkgcore.ebuild.repo_objs.SharedPkgData.manifest" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="pkgcore.ebuild.repo_objs.SharedPkgData.metadata_xml">
+<code class="sig-name descname"><span class="pre">metadata_xml</span></code><a class="headerlink" href="#pkgcore.ebuild.repo_objs.SharedPkgData.metadata_xml" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="pkgcore.ebuild.repo_objs.Subproject">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">pkgcore.ebuild.repo_objs.</span></code><code class="sig-name descname"><span class="pre">Subproject</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ref</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">projects_xml</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">inherit_members</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pkgcore/ebuild/repo_objs.html#Subproject"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#pkgcore.ebuild.repo_objs.Subproject" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.9)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<p>Data on a subproject.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Variables</dt>
+<dd class="field-odd"><p><a class="reference internal" href="#pkgcore.ebuild.repo_objs.Subproject.inherit_members" title="pkgcore.ebuild.repo_objs.Subproject.inherit_members"><strong>inherit_members</strong></a> – whether the parent project inherits members from this subproject</p>
+</dd>
+</dl>
+<dl class="py attribute">
+<dt id="pkgcore.ebuild.repo_objs.Subproject.inherit_members">
+<code class="sig-name descname"><span class="pre">inherit_members</span></code><a class="headerlink" href="#pkgcore.ebuild.repo_objs.Subproject.inherit_members" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="pkgcore.ebuild.repo_objs.Subproject.project">
+<code class="sig-name descname"><span class="pre">project</span></code><a class="headerlink" href="#pkgcore.ebuild.repo_objs.Subproject.project" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">pkgcore trunk documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">pkgcore.ebuild.repo_objs module</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2006-2019, pkgcore contributors.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.5.3.
+    </div>
+  </body>
+</html>

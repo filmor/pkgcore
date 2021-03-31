@@ -1,0 +1,4 @@
+Synopsis
+========
+
+pclonecache [-h] [--version] [--debug] [-q] [-v] [--color BOOLEAN] [--empty-config] [--config PATH] source target

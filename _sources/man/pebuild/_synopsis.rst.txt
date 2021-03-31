@@ -1,0 +1,4 @@
+Synopsis
+========
+
+pebuild [-h] [--version] [--debug] [-q] [-v] [--color BOOLEAN] [--empty-config] [--config PATH] [--domain DOMAIN] [--no-auto] target phase [phase ...]

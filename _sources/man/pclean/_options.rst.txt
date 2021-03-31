@@ -1,0 +1,37 @@
+Base Options
+============
+
+-h, --help       
+                 show this help message and exit
+
+--version        
+                 show this program's version info and exit
+
+--debug          
+                 enable debugging checks
+
+-q, --quiet      
+                 suppress non-error messages
+
+-v, --verbose    
+                 show verbose output
+
+--color BOOLEAN  
+                 enable/disable color support
+
+Config Options
+==============
+
+--empty-config   
+                 skip loading user/system pkgcore config
+
+--config PATH    
+                 use custom pkgcore config file
+
+--domain DOMAIN  
+                 custom pkgcore domain to use for this operation
+
+Subcommands
+===========
+
+cleaning applets
